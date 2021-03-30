@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: #181818;
+}
+
+h1{
+    font-size: 40px;
+    color: White;
+    margin: 0px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.controls > button{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: 300;
+    outline: none;
+}
+
+
+.mood > button{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: 300;
+    outline: none;
+}
+
+#gridContainer {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+table {
+    background-color: white;
+    border-spacing: 0;
+}
+
+td {
+    /*border: 1px solid grey;*/
+    /*border-radius: 3px;*/
+    width: 1px;
+    height: 1px;
+}
+
+span {
+    color: #222;
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color:black;
+    /*border-radius: 10px;*/
+}
